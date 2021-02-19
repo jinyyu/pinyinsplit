@@ -1,8 +1,8 @@
 package pinyinsplit
 
+//拼音表数据来源百度
 //https://baike.baidu.com/item/%E6%8B%BC%E9%9F%B3%E5%AD%97%E6%AF%8D%E8%A1%A8/5428784?fr=aladdin
-
-var pingyinData = []string{
+var pingYinTable = []string{
 	"ai",
 	"ei",
 	"ui",
@@ -11,12 +11,14 @@ var pingyinData = []string{
 	"iu",
 	"ie",
 	"üe",
+	"ue",
 	"er",
 	"an",
 	"en",
 	"in",
 	"un",
 	"ün",
+	"un",
 	"ang",
 	"eng",
 	"ing",
@@ -170,7 +172,9 @@ var pingyinData = []string{
 	"nun",
 	"nuo",
 	"nü",
+	"nu",
 	"nüe",
+	"nue",
 	"l",
 	"la",
 	"le",
@@ -198,7 +202,9 @@ var pingyinData = []string{
 	"luan",
 	"lun",
 	"lü",
+	"lu",
 	"lüe",
+	"lue",
 	"g",
 	"ga",
 	"ge",
